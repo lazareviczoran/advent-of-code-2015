@@ -176,24 +176,4 @@ mod test {
     assert_eq!(get_value(&mut map, "x"), 123);
     assert_eq!(get_value(&mut map, "y"), 456);
   }
-
-  // #[test]
-  // fn part2_input1() {
-  //   assert_eq!(is_nice_v2("qjhvhtzxzqqjkmpb"), true);
-  // }
-
-  // #[test]
-  // fn part2_input2() {
-  //   assert_eq!(is_nice_v2("xxyxx"), true);
-  // }
-
-  // #[test]
-  // fn part2_input3() {
-  //   assert_eq!(is_nice_v2("uurcxstgmygtbstg"), false);
-  // }
-
-  // #[test]
-  // fn part2_input4() {
-  //   assert_eq!(is_nice_v2("ieodomkazucvgmuy"), false);
-  // }
 }
